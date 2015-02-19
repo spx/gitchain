@@ -6,7 +6,7 @@ import (
 	"encoding/gob"
 
 	"github.com/conformal/fastsha256"
-	"github.com/gitchain/gitchain/types"
+	"github.com/spx/gitchain/types"
 )
 
 //// Interface

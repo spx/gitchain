@@ -7,10 +7,10 @@ import (
 	"fmt"
 
 	"github.com/boltdb/bolt"
-	"github.com/gitchain/gitchain/block"
-	"github.com/gitchain/gitchain/keys"
-	"github.com/gitchain/gitchain/transaction"
-	"github.com/gitchain/gitchain/types"
+	"github.com/spx/gitchain/block"
+	"github.com/spx/gitchain/keys"
+	"github.com/spx/gitchain/transaction"
+	"github.com/spx/gitchain/types"
 )
 
 func (db *T) GetTransactionBlock(hash types.Hash) (b *block.Block, e error) {

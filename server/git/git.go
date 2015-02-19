@@ -11,12 +11,12 @@ import (
 	"strings"
 
 	"github.com/bargez/pktline"
-	"github.com/gitchain/gitchain/git"
-	"github.com/gitchain/gitchain/repository"
-	"github.com/gitchain/gitchain/server/context"
-	"github.com/gitchain/gitchain/transaction"
 	"github.com/gorilla/mux"
 	"github.com/inconshreveable/log15"
+	"github.com/spx/gitchain/git"
+	"github.com/spx/gitchain/repository"
+	"github.com/spx/gitchain/server/context"
+	"github.com/spx/gitchain/transaction"
 )
 
 func pktlineToBytes(b []byte) []byte {

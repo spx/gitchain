@@ -4,9 +4,9 @@ import (
 	"encoding/hex"
 	"net/http"
 
-	"github.com/gitchain/gitchain/repository"
-	"github.com/gitchain/gitchain/server/context"
 	"github.com/inconshreveable/log15"
+	"github.com/spx/gitchain/repository"
+	"github.com/spx/gitchain/server/context"
 )
 
 type repo struct {

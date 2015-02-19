@@ -5,11 +5,11 @@ import (
 	"encoding/gob"
 	"path"
 
-	"github.com/gitchain/gitchain/git"
-	"github.com/gitchain/gitchain/server/context"
-	"github.com/gitchain/gitchain/transaction"
-	"github.com/gitchain/wendy"
 	"github.com/inconshreveable/log15"
+	"github.com/spx/gitchain/git"
+	"github.com/spx/gitchain/server/context"
+	"github.com/spx/gitchain/transaction"
+	"github.com/spx/wendy"
 )
 
 type GitchainApp struct {

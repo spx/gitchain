@@ -10,7 +10,7 @@ import (
 	"code.google.com/p/go.crypto/ripemd160"
 
 	"github.com/conformal/btcec"
-	"github.com/gitchain/gitchain/util"
+	"github.com/spx/gitchain/util"
 	"github.com/tv42/base58"
 )
 

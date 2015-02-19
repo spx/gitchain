@@ -1,8 +1,8 @@
 package server
 
 import (
-	"github.com/gitchain/gitchain/server/context"
-	"github.com/gitchain/gitchain/transaction"
+	"github.com/spx/gitchain/server/context"
+	"github.com/spx/gitchain/transaction"
 )
 
 func TransactionListener(srv *context.T) {

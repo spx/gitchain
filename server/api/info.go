@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"runtime"
 
-	"github.com/gitchain/gitchain/block"
-	"github.com/gitchain/gitchain/server"
-	"github.com/gitchain/gitchain/server/context"
 	"github.com/inconshreveable/log15"
+	"github.com/spx/gitchain/block"
+	"github.com/spx/gitchain/server"
+	"github.com/spx/gitchain/server/context"
 )
 
 type Info struct {

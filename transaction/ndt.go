@@ -6,7 +6,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/gitchain/gitchain/types"
+	"github.com/spx/gitchain/types"
 )
 
 func init() {

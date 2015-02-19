@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/gitchain/gitchain/keys"
-	"github.com/gitchain/gitchain/server/context"
-	"github.com/gitchain/gitchain/transaction"
 	"github.com/inconshreveable/log15"
+	"github.com/spx/gitchain/keys"
+	"github.com/spx/gitchain/server/context"
+	"github.com/spx/gitchain/transaction"
 )
 
 type TransactionService struct {

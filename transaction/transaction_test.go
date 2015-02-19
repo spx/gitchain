@@ -4,7 +4,7 @@ import (
 	"crypto/ecdsa"
 	"testing"
 
-	"github.com/gitchain/gitchain/keys"
+	"github.com/spx/gitchain/keys"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -4,7 +4,7 @@ import (
 	"crypto/ecdsa"
 
 	"github.com/boltdb/bolt"
-	"github.com/gitchain/gitchain/keys"
+	"github.com/spx/gitchain/keys"
 )
 
 func (db *T) PutKey(alias string, key *ecdsa.PrivateKey, main bool) (e error) {

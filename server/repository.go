@@ -1,9 +1,9 @@
 package server
 
 import (
-	"github.com/gitchain/gitchain/block"
-	"github.com/gitchain/gitchain/server/context"
-	"github.com/gitchain/gitchain/transaction"
+	"github.com/spx/gitchain/block"
+	"github.com/spx/gitchain/server/context"
+	"github.com/spx/gitchain/transaction"
 )
 
 const REFUPDATE_CONFIRMATIONS_REQUIRED = 1

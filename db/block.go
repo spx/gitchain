@@ -4,8 +4,8 @@ import (
 	"errors"
 
 	"github.com/boltdb/bolt"
-	"github.com/gitchain/gitchain/block"
-	"github.com/gitchain/gitchain/types"
+	"github.com/spx/gitchain/block"
+	"github.com/spx/gitchain/types"
 )
 
 func (db *T) PutBlock(b *block.Block, last bool) (e error) {

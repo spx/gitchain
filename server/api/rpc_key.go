@@ -3,9 +3,9 @@ package api
 import (
 	"net/http"
 
-	"github.com/gitchain/gitchain/keys"
-	"github.com/gitchain/gitchain/server/context"
 	"github.com/inconshreveable/log15"
+	"github.com/spx/gitchain/keys"
+	"github.com/spx/gitchain/server/context"
 )
 
 // KeySerice

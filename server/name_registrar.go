@@ -3,12 +3,12 @@ package server
 import (
 	"bytes"
 
-	"github.com/gitchain/gitchain/block"
-	"github.com/gitchain/gitchain/repository"
-	"github.com/gitchain/gitchain/server/context"
-	"github.com/gitchain/gitchain/transaction"
-	"github.com/gitchain/gitchain/util"
 	"github.com/inconshreveable/log15"
+	"github.com/spx/gitchain/block"
+	"github.com/spx/gitchain/repository"
+	"github.com/spx/gitchain/server/context"
+	"github.com/spx/gitchain/transaction"
+	"github.com/spx/gitchain/util"
 )
 
 const RESERVATION_CONFIRMATIONS_REQUIRED = 3

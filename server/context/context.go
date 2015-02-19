@@ -4,9 +4,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/gitchain/gitchain/db"
-	"github.com/gitchain/gitchain/server/config"
 	"github.com/inconshreveable/log15"
+	"github.com/spx/gitchain/db"
+	"github.com/spx/gitchain/server/config"
 	"github.com/tuxychandru/pubsub"
 )
 

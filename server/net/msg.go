@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"encoding/gob"
 
-	"github.com/gitchain/gitchain/types"
-	"github.com/gitchain/wendy"
+	"github.com/spx/gitchain/types"
+	"github.com/spx/wendy"
 )
 
 const (

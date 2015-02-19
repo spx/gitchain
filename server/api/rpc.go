@@ -1,10 +1,10 @@
 package api
 
 import (
-	"github.com/gitchain/gitchain/server/context"
 	"github.com/gorilla/rpc"
 	"github.com/gorilla/rpc/json"
 	"github.com/inconshreveable/log15"
+	"github.com/spx/gitchain/server/context"
 )
 
 func JsonRpcService(srv *context.T, log log15.Logger) *rpc.Server {

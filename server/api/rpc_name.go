@@ -5,10 +5,10 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/gitchain/gitchain/server/context"
-	"github.com/gitchain/gitchain/transaction"
-	"github.com/gitchain/gitchain/util"
 	"github.com/inconshreveable/log15"
+	"github.com/spx/gitchain/server/context"
+	"github.com/spx/gitchain/transaction"
+	"github.com/spx/gitchain/util"
 )
 
 type NameService struct {

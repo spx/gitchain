@@ -4,9 +4,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gitchain/gitchain/block"
-	"github.com/gitchain/gitchain/transaction"
-	"github.com/gitchain/gitchain/types"
+	"github.com/spx/gitchain/block"
+	"github.com/spx/gitchain/transaction"
+	"github.com/spx/gitchain/types"
 	"github.com/stretchr/testify/assert"
 )
 

@@ -5,12 +5,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/gitchain/gitchain/git"
-	"github.com/gitchain/gitchain/server/context"
-	"github.com/gitchain/gitchain/transaction"
-	"github.com/gitchain/gitchain/util"
-	"github.com/gitchain/wendy"
 	"github.com/inconshreveable/log15"
+	"github.com/spx/gitchain/git"
+	"github.com/spx/gitchain/server/context"
+	"github.com/spx/gitchain/transaction"
+	"github.com/spx/gitchain/util"
+	"github.com/spx/wendy"
 )
 
 func Server(srv *context.T) {

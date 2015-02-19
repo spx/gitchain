@@ -1,5 +1,5 @@
 {
-	"ImportPath": "github.com/gitchain/gitchain",
+	"ImportPath": "github.com/spx/gitchain",
 	"GoVersion": "go1.2.2",
 	"Deps": [
 		{
@@ -34,7 +34,7 @@
 			"Rev": "ce4c212c9d0d73ea7074795f8694f49b82152b18"
 		},
 		{
-			"ImportPath": "github.com/gitchain/wendy",
+			"ImportPath": "github.com/spx/wendy",
 			"Comment": "beta1-3-g7078a6b",
 			"Rev": "7078a6b268633c4a26cf4c433fdffeb0d508a6dc"
 		},

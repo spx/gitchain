@@ -11,12 +11,12 @@ import (
 	"os"
 
 	"github.com/alecthomas/kingpin"
-	"github.com/gitchain/gitchain/server"
-	"github.com/gitchain/gitchain/server/api"
-	"github.com/gitchain/gitchain/server/config"
-	"github.com/gitchain/gitchain/server/context"
-	httpserver "github.com/gitchain/gitchain/server/http"
-	netserver "github.com/gitchain/gitchain/server/net"
+	"github.com/spx/gitchain/server"
+	"github.com/spx/gitchain/server/api"
+	"github.com/spx/gitchain/server/config"
+	"github.com/spx/gitchain/server/context"
+	httpserver "github.com/spx/gitchain/server/http"
+	netserver "github.com/spx/gitchain/server/net"
 
 	"github.com/gorilla/rpc/json"
 )

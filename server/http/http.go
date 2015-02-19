@@ -8,11 +8,11 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/gitchain/gitchain/server/api"
-	"github.com/gitchain/gitchain/server/context"
-	"github.com/gitchain/gitchain/server/git"
-	"github.com/gitchain/gitchain/ui"
 	"github.com/gorilla/mux"
+	"github.com/spx/gitchain/server/api"
+	"github.com/spx/gitchain/server/context"
+	"github.com/spx/gitchain/server/git"
+	"github.com/spx/gitchain/ui"
 )
 
 func Server(srv *context.T) {

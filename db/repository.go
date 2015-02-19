@@ -2,7 +2,7 @@ package db
 
 import (
 	"github.com/boltdb/bolt"
-	"github.com/gitchain/gitchain/repository"
+	"github.com/spx/gitchain/repository"
 )
 
 func (db *T) PutRepository(repo *repository.T) (e error) {
